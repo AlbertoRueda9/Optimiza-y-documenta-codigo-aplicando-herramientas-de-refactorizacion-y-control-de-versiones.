@@ -1,1 +1,5 @@
-# Optimiza-y-documenta-codigo-aplicando-herramientas-de-refactorizacion-y-control-de-versiones.
+# Refactorización de Código Legado
+
+### Alberto Rueda Romero
+### David Delgado Alonso
+
