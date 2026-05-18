@@ -35,3 +35,8 @@ Posteriormente, seleccionamos los números que identificamos como constantes y l
 
 Gracias a las nuevas variables y constantes, pudimos simplificar el código eliminando estructuras `else` innecesarias y dejando el método más limpio y fácil de entender.
 
+# Fase 3: Verificación, Documentación y Entrega
+
+La verificación se realizó correctamente y el código continúa funcionando sin errores. Además, el resultado final presenta una mejora notable en legibilidad y mantenimiento, incluyendo comentarios y una mejor estructura.
+
+Aunque la versión original también funcionaba correctamente, disponer de un código más legible y comprensible facilita futuras modificaciones y reduce la posibilidad de errores. Con esta refactorización hemos conseguido un código más seguro, limpio y mantenible.
