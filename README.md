@@ -24,3 +24,14 @@ También identificamos varios números mágicos, es decir, constantes utilizadas
 - `TIPO_CLIENTE_ESTANDAR`
 
 Por último, detectamos varias estructuras `if` que generaban confusión debido a la falta de claridad en las variables y constantes utilizadas. Para solucionarlo, optamos por simplificar la lógica eliminando bloques innecesarios y utilizando estructuras `if` más simples y limpias.
+
+# Fase 2: Refactorización Asistida por el IDE
+
+Para comenzar la refactorización utilizamos el IDE **Visual Studio Code**.
+
+Para renombrar las variables, colocamos el cursor sobre la variable y presionamos `F2`. Después, escribimos el nuevo nombre siguiendo la convención `camelCase` y confirmamos con `Enter`.
+
+Posteriormente, seleccionamos los números que identificamos como constantes y les asignamos nombres descriptivos utilizando la convención `SNAKE_CASE`.
+
+Gracias a las nuevas variables y constantes, pudimos simplificar el código eliminando estructuras `else` innecesarias y dejando el método más limpio y fácil de entender.
+
