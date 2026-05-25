@@ -29,7 +29,7 @@ Por último, detectamos varias estructuras `if` que generaban confusión debido 
 
 Para comenzar la refactorización utilizamos el IDE **Visual Studio Code**.
 
-Para renombrar las variables, colocamos el cursor sobre la variable y presionamos `F2`. Después, escribimos el nuevo nombre siguiendo la convención `camelCase` y confirmamos con `Enter`.
+Para el renombrado hemos utilizado exclusivamente las herramientas automáticas del IDE para cambiar los nombres de las variables en todo el documento, sin riesgo de errores. Hemos cambiado todas las variables por el nombre de variable que pide la actividad seleccionando la variable, dandole click derecho+Rename Symbol, pones el nombre que pide y se cambia todas las variables que había que cambiar.
 
 Posteriormente, seleccionamos los números que identificamos como constantes y les asignamos nombres descriptivos utilizando la convención `SNAKE_CASE`.
 
