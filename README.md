@@ -2,7 +2,7 @@
 
 ### Alberto Rueda Romero
 ### David Delgado Alonso
-### Profesor: Willman Acosta Luga
+### Profesor: Willman Acosta Lugo
 
 # Fase 1: Análisis de la Deuda Técnica
 
