@@ -32,7 +32,7 @@ Para comenzar la refactorización utilizamos el IDE **Visual Studio Code**.
 
 Para el renombrado hemos utilizado exclusivamente las herramientas automáticas del IDE para cambiar los nombres de las variables en todo el documento, sin riesgo de errores. Hemos cambiado todas las variables por el nombre de variable que pide la actividad seleccionando la variable, dandole click derecho+Rename Symbol, poniendo el nombre que hemos considerado mas legible y se refactorizan todas las variables.
 
-Posteriormente, seleccionamos los números que identificamos como constantes y les asignamos nombres descriptivos utilizando la convención `SNAKE_CASE`.
+Posteriormente, seleccionamos los números que identificamos como constantes y les asignamos nombres descriptivos utilizando la convención `SNAKE_CASE` usando la herramienta de extracción del IDE para crear constantes private static final en la parte superior de la clase.
 
 Gracias a las nuevas variables y constantes, pudimos simplificar el código eliminando estructuras `else` innecesarias y dejando el método más limpio y fácil de entender.
 
