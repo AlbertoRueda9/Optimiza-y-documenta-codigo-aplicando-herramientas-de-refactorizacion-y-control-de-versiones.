@@ -20,7 +20,7 @@ public class FacturacionLegacy {
      * 
      * 
      */
-//CÓDIGO SIN BLOQUE ELSE UTILIZANDO RETORNOS TEMPRANOS PARA MEJORAR LA LEGIBILIDAD Y REDUCIR LA NESTING DE CONDICIONES
+//CÓDIGO SIN BLOQUE ELSE UTILIZANDO RETORNOS TEMPRANOS PARA MEJORAR LA LEGIBILIDAD 
 
     public double calcularTotal(double importeBase, int tipoCliente, boolean esSocioVip) {
       // Si el importe base es menor o igual a 0, devolvemos 0 inmediatamente para evitar cálculos innecesarios y mejorar la legibilidad del código.
