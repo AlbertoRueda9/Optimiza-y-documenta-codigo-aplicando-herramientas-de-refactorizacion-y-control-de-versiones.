@@ -16,7 +16,7 @@ Era evidente que el código no era legible, puesto que no incluía comentarios n
 
 Tras analizar el nombre de las variables, dedujimos que el método trabajaba con distintos tipos de clientes, un importe base y una condición para clientes VIP. Por ello, sustituimos las variables `m`, `tC` y `dV` por nombres más descriptivos como `importeBase`, `tipoCliente` y `esSocioVip`.
 
-También identificamos varios números mágicos, es decir, constantes utilizadas directamente en el código sin una declaración previa. Para mejorar la legibilidad, definimos constantes con nombres descriptivos como:
+También identificamos varios números mágicos, es decir, constantes utilizadas directamente en el código sin una declaración previa. Para mejorar la legibilidad, definimos constantes con la herrramienta del IDE con nombres descriptivos como:
 
 - `DESCUENTO_VIP_DIA`
 - `DESCUENTO_VIP`
